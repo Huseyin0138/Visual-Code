@@ -1,0 +1,1 @@
+window.alert("Hallo, Herr Groppe viel Spaß auf der Seite:)");
