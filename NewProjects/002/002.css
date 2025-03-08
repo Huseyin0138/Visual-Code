@@ -1,0 +1,52 @@
+body{
+    font-size: 20px;
+    text-align: center;
+    min-height: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 9px solid black;
+    align-items: center;
+
+}
+
+.sqaure{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    
+    animation-duration: 3s;
+    animation-name: spin;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+.sqaure:hover{
+    animation-play-state: paused;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: #555;
+    border-radius: 50%;
+}
+
+@keyframes spin{
+    0%{
+
+    }
+    50%{
+        scale: 2;
+    }
+    100%{
+        transform: rotate(360deg);
+        border-radius: 50%;
+    }
+
+
+
+}
