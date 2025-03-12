@@ -2,3 +2,7 @@ body {
     font-family: Verdana;
     text-align: center;
 }
+
+.bild_element {
+    display: flex;
+}
